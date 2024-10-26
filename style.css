@@ -1,0 +1,173 @@
+
+@font-face {
+    font-family: 'gilroy';
+    src: url("Gilroy-Light.otf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'gilroy';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+#nav{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+#nav-prt2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+
+#nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+#nav i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#nav h5{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+#nav img{
+    height: 60px;
+}
+
+.line{
+    height: 2px;
+    width: 80px;
+    background-color: red;
+}
+#container{
+    height: calc(100% - 150px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#left{
+    height: 100%;
+    width: 39%;
+    padding: 70px 110px;
+}
+
+#left h1{
+    font-size: 48px;
+    line-height: 48px;
+}
+#left h1>span{
+    color: red;
+    font-weight: 500;
+}
+#left p{
+    font-size: 12px;
+    width: 80%;
+    margin-top: 40px;
+    line-height: 15px;
+}
+#left button{
+    background-color: red;
+    padding: 15px 20px;
+    font-size: 13px;
+    border-radius: 50px;
+    font-weight: 700;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#left button i{
+    margin-right: 10px;
+}
+#center{
+    height: 100%;
+    width: 22%;
+    padding-top: 22px;
+    position: relative;
+}
+#center-bg{
+    height: 89%;
+    width: 100%;
+    background-image: url("https://www.diyneonsigns.com/wp-content/uploads/2019/12/Z429-COCA_COLA_NEON_SIGN_1024x1024-1.jpg");
+    background-size: 272%;
+    background-position: 30% 23%;
+    position: absolute;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    filter: blur(2.2px);
+}
+#right{
+    height: 100%;
+    width: 39%;
+    padding: 200px 100px;
+    /* background-color: beige; */
+}
+#right-elems{
+    /* background-color: red; */
+    width: 300px;
+}
+.elem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    /* background-color: blue; */
+    border-bottom: 1px solid #fff;
+}
+.elem1 h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: #acaaaacb;
+}
+.elem1 i{
+    font-size: 20px;
+    color: #acaaaacb;
+}
+.elem2 h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+.elem2 p{
+    font-size: 12px;
+    width: 70%;
+    color: #acaaaacb;
+
+}
+
+#container>img{
+    height: 98%;
+    position: absolute;
+    left: 49%;
+    transform: translate(-50%, 0);
+    z-index: 9;
+}
